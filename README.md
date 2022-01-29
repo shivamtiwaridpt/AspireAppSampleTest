@@ -6,10 +6,16 @@ Dependency Java Maven
 ###libraries used Selenium, TestNG, log4j, Extent Reports
 
 Prerequisite: System should have Java and Maven installed with proper path setting.
+
 Steps to clone execute the tests: 
+
 git clone https://github.com/shivamtiwaridpt/AspireAppSampleTest.git 
+
 cd AspireAppSampleTest 
+
 mvn clean test
+
 Once project is build successfully, test case can be run directly by using test case file. (Right click on test case file and run as TestNG)
+
 Second way of running is using testNG.xml file. (right click on testNG.xml file and run as TestNG suite)
 
